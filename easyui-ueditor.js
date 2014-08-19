@@ -1,5 +1,7 @@
 /**
- * easyui-ueditor整合。
+ * easyui-ueditor整合插件。
+ * author:农民叔叔
+ * date:2014-08-19
  */
 (function($,UE){
 	if(!UE) alert('未加载百度UEditor的相关JS文件!');
