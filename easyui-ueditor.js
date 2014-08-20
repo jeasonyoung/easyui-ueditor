@@ -1,7 +1,11 @@
 /**
  * easyui-ueditor整合插件。
  * author:农民叔叔
+<<<<<<< HEAD
  * date:2014-08-19.
+=======
+ * date:2014-08-19
+>>>>>>> FETCH_HEAD
  */
 (function($,UE){
 	//定义插件
