@@ -8,3 +8,8 @@ easyui-ueditor
    取值方法：<B>&lt;button onclick="javascript:alert($('.easyui-ueditor').ueditor('getValue'));"&gt;获得内容&lt;/button&gt;<br/>
               &lt;button onclick="javascript:($('.easyui-ueditor').ueditor('setValue','你好'));"&gt;设置内容&lt;/button&gt;</B>
    目前只实现了我用到的几个方法以及设置，架子已经弄好，配置相可以完全使用UEditor的配置项，方法调用还需要网友自己完善。
+   
+   为达到无缝集成，做了如下改进：
+   
+   1.增加和Form组件的集成，可以自动与form的加载和提交数据挂钩；
+   2.增加和easyui-validatebox的集成，并能与Form的validate方法挂钩；
